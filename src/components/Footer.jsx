@@ -21,6 +21,10 @@ const FooterLinks = [
     title: "Blog",
     link: "/#blog",
   },
+  {
+    title: "Shop",
+    link: "/#shop",
+  },
 ];
 
 const Footer = () => {

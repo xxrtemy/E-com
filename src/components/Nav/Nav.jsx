@@ -34,7 +34,7 @@ const Nav = () => {
     const cartItems = useSelector(state => state.cart)
     
     return (
-    <div className="fixed w-full z-50">
+    <div className="w-full">
     <div className="bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
         <div className='py-4'>
             <div className="container flex justify-between items-center">
