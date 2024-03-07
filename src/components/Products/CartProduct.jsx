@@ -16,7 +16,7 @@ const CartProduct = () => {
     
     
     return (
-    <div className=' container mt-24 h-screen'>
+    <div className=' container my-24'>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 place-items-center">
             {cart.cartItems.map((cartItem, index)=>{
                 return(
