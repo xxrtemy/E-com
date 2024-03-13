@@ -69,7 +69,7 @@ const Nav = () => {
                         duration-200'
                         />
                     </div>
-                    <Link to="/cart" className='relative p-3'>
+                    <Link to={cartItems.cartTotalQuantity === 0 ? "" : "/cart"} className={cartItems.cartTotalQuantity === 0 ? 'cursor-default' : 'relative p-3'}>
                         <FaCartShopping className='text-xl text-gray-600 dark:text-gray-400'/>
                         <div className={cartItems.cartTotalQuantity === 0 ? "hidden" : "w-5 h-5 bg-red-500 text-white rounded-full absolute top-0 right-0 flex items-center justify-center text-xs"}>{cartItems.cartTotalQuantity}</div>
                     </Link>
