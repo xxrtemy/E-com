@@ -91,6 +91,7 @@ const Hero = () => {
                             bgColor="bg-primary"
                             textColor="text-white"
                             handler={() => alert('Not ready yet')}
+                            disabled={false}
                         />
                         </div>
                     </div>
